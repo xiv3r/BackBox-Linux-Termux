@@ -7,18 +7,8 @@
 
 ### Installation:
 
-    apt update && apt upgrade -y
-
-    git clone https://github.com/xiv3r/BackBox-Linux-Termux.git
-
-    cd BackBox-Linux-Termux
-
-    chmod 777 backbox.sh
-
-    bash backbox.sh
-
-
+    termux-setup-storage && apt update && apt install proot proot-distro wget -y && echo "pd sh backbox" >> $PREFIX/etc/bash.bashrc && wget -qO- https://raw.githubusercontent.com/xiv3r/Kali-Linux-Nethunter/refs/heads/main/backbox/installer.sh | sh
 
 ## Run:
 
-    ./start-backbox.sh
+    pd sh backbox
