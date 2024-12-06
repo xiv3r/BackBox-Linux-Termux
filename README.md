@@ -3,16 +3,17 @@
 
 <br>
 
-<div align="center"><img src="https://github.com/xiv3r/Kali-Linux-Nethunter/blob/main/backbox/backbox.png">
+<div align="center"><img src="https://github.com/xiv3r/Termux-Pentesting-Distro/blob/main/BackBox/backbox.png">
 </div>
 
 <br></br>
 
 
 ### Installation:
-
-    termux-setup-storage && apt update && apt install proot proot-distro wget -y && echo "pd sh backbox" >> $PREFIX/etc/bash.bashrc && wget -qO- https://raw.githubusercontent.com/xiv3r/Kali-Linux-Nethunter/refs/heads/main/backbox/installer.sh | sh
-
+```
+apt update && apt install proot proot-distro wget -y && echo "pd sh backbox" >> $PREFIX/etc/bash.bashrc && wget -qO- https://raw.githubusercontent.com/xiv3r/Termux-Pentesting-Distro/refs/heads/main/backbox/install | sh
+```
 ## Run:
-
-    pd sh backbox
+```
+backbox
+```
