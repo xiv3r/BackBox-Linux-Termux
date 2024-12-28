@@ -11,7 +11,7 @@
 
 ### Installation:
 ```
-apt update && apt install axel bsdtar proot proot-distro wget -y &>/dev/null && wget -qO- https://raw.githubusercontent.com/xiv3r/Termux-Pentesting-Distro/refs/heads/main/BackBox/install | sh && backbox
+apt update && apt install axel bsdtar proot proot-distro wget -y && clear && wget -qO- https://raw.githubusercontent.com/xiv3r/Termux-Pentesting-Distro/refs/heads/main/BackBox/install | sh && clear && backbox
 ```
 ## Run:
 ```
